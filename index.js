@@ -26,4 +26,10 @@ app.get('/healthz', (_, res) => {
   });
 });
 
+app.get('/health', (_, res) => {
+  res.send({
+    message: 'OK',
+  });
+});
+
 router(bot);
