@@ -33,5 +33,3 @@ app.get('/health', (_, res) => {
 });
 
 router(bot);
-
-export default app;

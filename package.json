@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js dotenv_config_path=.env",
-    "vercel-build": "echo hello"
+    "start": "nodemon index.js dotenv_config_path=.env"
   },
   "author": "",
   "license": "ISC",
