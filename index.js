@@ -27,6 +27,7 @@ app.get('/healthz', (_, res) => {
 });
 
 app.get('/health', (_, res) => {
+  console.log(`Working at: ${new Date()}`);
   res.send({
     message: 'OK',
   });

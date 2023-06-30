@@ -20,8 +20,7 @@ const addSituation = async (messages) => {
       valueInputOption: 'USER_ENTERED',
       resource: { values: fullMessage },
     });
-    console.log(fullMessage);
-    console.log(postMessage.statusText);
+    console.log(`Created At: ${new Date()} status: ${postMessage.statusText}`);
   }
 };
 
